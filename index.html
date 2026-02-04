@@ -1,491 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onome Joseph Portfolio </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Devicon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onome Joseph | Machine Learning & AI Engineer</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
+
 <body>
 
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">Onome<span> Joseph</span></a>
+    <div class="mobile-menu-btn" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="btn-nav">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header>
-        <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000">Onome Joseph</a>
-        <div class="menu-btn"></div>
-        <div class="navigation">
-            <a href="#main" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
-            <a href="#about"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About</a>
-            <a href="#skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Skills</a>
-            <a href="#services" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Services</a>
-            <a href="#work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Work</a>
-            <a href="#contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Contact</a>
-            <a href="#message" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Message</a>
+  <!-- Restored Hero Section (Layout from Original, Style from New) -->
+  <section class="main" id="home">
+    <div class="content">
+      <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800"><span>Oshevire Onome Joseph</span>
+      </h2>
+      <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+        <h3>AI Engineer</h3>
+        <h3>Machine Learning Engineer</h3>
+      </div>
+      <a href="https://drive.google.com/file/d/19pKyA9Rb89mKWV4s0490M5Sk_OJWWgb7/view?usp=sharing" class="btn"
+        data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000"> My Resume
+      </a>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/onome-oshevire-77159636a" target="_blank" data-aos="fade-in"
+          data-aos-delay="1200"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Onome-Joseph" target="_blank" data-aos="fade-in" data-aos-delay="1300"><i
+            class="fab fa-github"></i></a>
+        <a href="mailto:onomejoseph2341@gmail.com" data-aos="fade-in" data-aos-delay="1400"><i
+            class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 class="section-title" data-aos="fade-up">About Me</h2>
+    <div class="about-container">
+      <div class="about-img" data-aos="fade-right">
+        <!-- Using existing image if available, otherwise placeholder-like structure -->
+        <img src="Image/img1.png" alt="Onome Joseph"
+          onerror="this.src='https://via.placeholder.com/500x500/111/fff?text=Onome+Joseph'">
+      </div>
+      <div class="about-text" data-aos="fade-left">
+        <h3>Building Intelligence from Data</h3>
+        <p>
+          Passionate about building intelligent, AI-powered solutions that drive business growth and smarter
+          decision-making.
+          Experienced in developing predictive models, deep learning systems, NLP applications, and recommendation
+          engines that deliver measurable value.
+        </p>
+        <p>
+          Beyond code, I value storytelling, leadership, and communication—skills that help me turn complex data into
+          strategies people understand and trust.
+        </p>
+        <div class="stats">
+          <div class="stat-item">
+            <h4 class="counter">7+</h4>
+            <p>AI Projects</p>
+          </div>
+          <div class="stat-item">
+            <h4 class="counter">3+</h4>
+            <p>Years Experience</p>
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </section>
 
-    <section class="main" id="main">
-        <div class="content">
-            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800"><br><span>Oshevire Onome Joseph</span></h2>
-            <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
-                <h3>Data Scientist</h3>
-                <h3>Machine Learning Engineer</h3>
-                <h3>Data Analyst</h3>
-            </div>
-            <a href="#work" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">See My Work</a>
-            <div class="media-icons">
-                <a href="https://www.linkedin.com/in/onome-oshevire-77159636a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/onome_josph/profilecard/?igsh=NzQzdHNhM2NvejJz" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.kaggle.com/onomeoshevire" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400"><i class="fab fa-kaggle"></i></a>
-                <a href="https://github.com/Onome-Joseph" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1500"><i class="fab fa-github"></i></a>
-            </div>
+  <!-- Restored Skills Section (Infinite Scroll) -->
+  <section id="skills" class="skills">
+    <h2 class="section-title" data-aos="zoom-in">Technical Skills</h2>
+
+    <div class="marquee marquee1">
+      <div class="track">
+        <!-- Set 1 -->
+        <div class="skill"><i class="fab fa-python"></i> Python</div>
+        <div class="skill"><i class="fas fa-brain"></i> Machine Learning</div>
+        <div class="skill"><i class="fas fa-network-wired"></i> Deep Learning</div>
+        <div class="skill"><i class="fas fa-language"></i> NLP</div>
+        <div class="skill"><i class="fas fa-eye"></i> Computer Vision</div>
+        <div class="skill"><i class="devicon-tensorflow-original"></i> TensorFlow</div>
+        <div class="skill"><i class="devicon-pytorch-original"></i> PyTorch</div>
+        <div class="skill"><i class="devicon-scikitlearn-plain"></i> Scikit-learn</div>
+        <div class="skill"><i class="devicon-flask-original"></i> Flask</div>
+        <div class="skill"><i class="fas fa-server"></i> REST API</div>
+
+        <!-- Repeat for smooth scroll (Duplicate) -->
+        <div class="skill"><i class="fab fa-python"></i> Python</div>
+        <div class="skill"><i class="fas fa-brain"></i> Machine Learning</div>
+        <div class="skill"><i class="fas fa-network-wired"></i> Deep Learning</div>
+        <div class="skill"><i class="fas fa-language"></i> NLP</div>
+        <div class="skill"><i class="fas fa-eye"></i> Computer Vision</div>
+        <div class="skill"><i class="devicon-tensorflow-original"></i> TensorFlow</div>
+        <div class="skill"><i class="devicon-pytorch-original"></i> PyTorch</div>
+        <div class="skill"><i class="devicon-scikitlearn-plain"></i> Scikit-learn</div>
+        <div class="skill"><i class="devicon-flask-original"></i> Flask</div>
+        <div class="skill"><i class="fas fa-server"></i> REST API</div>
+      </div>
+    </div>
+
+    <div class="marquee marquee2">
+      <div class="track">
+        <!-- Set 2 -->
+        <div class="skill"><i class="fas fa-spider"></i> Web Scraping</div>
+        <div class="skill"><i class="fas fa-database"></i> SQL</div>
+        <div class="skill"><i class="fas fa-chart-bar"></i> Data Visualization</div>
+        <div class="skill"><i class="devicon-docker-plain"></i> Docker</div>
+        <div class="skill"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</div>
+        <div class="skill"><i class="fab fa-react"></i> React</div>
+        <div class="skill"><i class="devicon-pandas-original"></i> Pandas</div>
+        <div class="skill"><i class="devicon-numpy-original"></i> NumPy</div>
+        <div class="skill"><i class="fas fa-robot"></i> Generative AI</div>
+        <div class="skill"><i class="fas fa-chart-line"></i> Statistics</div>
+
+        <!-- Repeat for smooth scroll (Duplicate) -->
+        <div class="skill"><i class="fas fa-spider"></i> Web Scraping</div>
+        <div class="skill"><i class="fas fa-database"></i> SQL</div>
+        <div class="skill"><i class="fas fa-chart-bar"></i> Data Visualization</div>
+        <div class="skill"><i class="devicon-docker-plain"></i> Docker</div>
+        <div class="skill"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</div>
+        <div class="skill"><i class="fab fa-react"></i> React</div>
+        <div class="skill"><i class="devicon-pandas-original"></i> Pandas</div>
+        <div class="skill"><i class="devicon-numpy-original"></i> NumPy</div>
+        <div class="skill"><i class="fas fa-robot"></i> Generative AI</div>
+        <div class="skill"><i class="fas fa-chart-line"></i> Statistics</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2 class="section-title" data-aos="fade-up">Experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+        <span class="play-date">09/2025 – Present</span>
+        <div class="timeline-content">
+          <h3>Project Manager</h3>
+          <h4>VarsityMentor Program | Remote (San Jose, USA)</h4>
+          <ul>
+            <li>Developing <strong>Pharm-cop</strong>, an AI-Powered Protection Against Fake Drugs using computer vision
+              to detect counterfeit medications.</li>
+            <li>Built and deployed scalable models with cloud integration, achieving high accuracy and real-time
+              analysis.</li>
+            <li>Contributed to AI-driven healthcare innovation, improving drug safety and public trust.</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-<!--  About Section -->
-
-    <section class="about" id="about">
-        <div class="title reveal">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">About me</h2>
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+        <span class="play-date">08/2025 – 12/2025</span>
+        <div class="timeline-content">
+          <h3>Generative AI Engineer</h3>
+          <h4>Flexisaf Edusoft Limited | Remote (NIG)</h4>
+          <ul>
+            <li>Developed and trained advanced ML, deep learning, and reinforcement learning models used in real-world
+              applications.</li>
+            <li>Built and deployed interactive AI applications, showcasing expertise in generative AI and ethical AI
+              practices.</li>
+          </ul>
         </div>
-        <div class="content">
-            <div class="column col-left reveal">
-                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
-                    <img src="Image/img1.jpg" alt="">   <!-- edit Image -->
-                </div>
-            </div>
-            <div class="column col-right reveal">
-                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Hey! I am Onome Joseph</h2>
-                <style>
-  .paragraph-text {
-    text-indent: 30px;
-    margin-bottom: 20px;
-  }
-  
-</style>
+      </div>
 
-<p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
-  <strong>Data scientist</strong> and <strong>ML Engineer</strong> who loves building smart systems</span> that actually make a difference. Whether it's <i>predictive modelling, research, recommending the right product, or healthcare(e.g fight against fake drugs)</i>, I enjoy using <strong>data</strong> to solve real-life problems.
-</p>
-
-<p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
-  I'm big on creating <span class="highlight">tools that bring value</span> to <strong>businesses</strong>, <strong>users</strong>, and <strong>communities</strong>. I like working on projects where tech meets impact</span>, and I'm always up for a <strong>good brainstorm</strong>!
-</p>
-
-<p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="600">
-  When I’m not coding or fine-tuning models</strong>, you might find me exploring new ideas</span>, joining hackathons, or simply watching movies and playing games</span>.
-</p>
-
-
-                <a href="https://drive.google.com/file/d/1an-eNbgWjsotRsYLV_VlqjpSHGW7B5nN/view?usp=drive_link" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See more</a>
-            </div>
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+        <span class="play-date">01/2025 – 06/2025</span>
+        <div class="timeline-content">
+          <h3>Machine Learning Engineer</h3>
+          <h4>Planto AI | Remote (India)</h4>
+          <ul>
+            <li>Contributed to the development of an <strong>AI Copilot system</strong> for autonomous code generation
+              and enterprise-level customization.</li>
+            <li>Enhanced the ANN architecture to improve code understanding, adaptability, and context-aware suggestions
+              across tech stacks.</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <!--  skills Section -->
-<section class="skills" id="skills">
-  <h2 class="section-title">My Skills</h2>
-
-  <div class="marquee marquee1">
-    <div class="track">
-      <!-- First roll of skills -->
-      <div class="skill"><i class="fas fa-brain"></i> Problem Solving</div>
-      <div class="skill"><i class="devicon-numpy-original colored"></i> NumPy</div>
-      <div class="skill"><i class="devicon-pandas-original colored"></i> Pandas</div>
-      <div class="skill"><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</div>
-      <div class="skill"><i class="devicon-python-plain colored"></i> Python</div>
-      <div class="skill"><i class="fas fa-database"></i> SQL</div>
-      <div class="skill"><i class="devicon-docker-plain colored"></i> Docker</div>
-      <div class="skill"><i class="devicon-flask-original colored"></i> Flask</div>
-      <div class="skill"><i class="fas fa-plug"></i> REST API</div>
-      <div class="skill"><i class="fas fa-brain"></i> NLP</div>
-      <div class="skill"><i class="devicon-html5-plain colored"></i> HTML</div>
-      <div class="skill"><i class="devicon-css3-plain colored"></i> CSS</div>
-      <div class="skill"><i class="fas fa-robot"></i> Automation</div>
-      <div class="skill"><i class="fas fa-spider"></i> Web Scraping</div>
-
-      <!-- Repeat for infinite scroll -->
-      <div class="skill"><i class="fas fa-brain"></i> Problem Solving</div>
-      <div class="skill"><i class="devicon-numpy-original colored"></i> NumPy</div>
-      <div class="skill"><i class="devicon-pandas-original colored"></i> Pandas</div>
-      <div class="skill"><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</div>
-      <div class="skill"><i class="devicon-python-plain colored"></i> Python</div>
-      <div class="skill"><i class="fas fa-database"></i> SQL</div>
-      <div class="skill"><i class="fas fa-brain"></i> NLP</div>
-      <div class="skill"><i class="devicon-docker-plain colored"></i> Docker</div>
-      <div class="skill"><i class="devicon-flask-original colored"></i> Flask</div>
-      <div class="skill"><i class="fas fa-plug"></i> REST API</div>
-      <div class="skill"><i class="devicon-html5-plain colored"></i> HTML</div>
-      <div class="skill"><i class="devicon-css3-plain colored"></i> CSS</div>
-      <div class="skill"><i class="fas fa-robot"></i> Automation</div>
-      <div class="skill"><i class="fas fa-spider"></i> Web Scraping</div>
     </div>
-  </div>
+  </section>
 
-  <div class="marquee marquee2">
-    <div class="track">
-      <!-- Second roll of skills -->
-      <div class="skill"><i class="devicon-tensorflow-original colored"></i> TensorFlow</div>
-      <div class="skill"><i class="devicon-pytorch-original colored"></i> PyTorch</div>
-      <div class="skill"><i class="fas fa-microchip"></i> AI</div>
-      <div class="skill"><i class="fas fa-cloud"></i> Cloud Computing</div>
-      <div class="skill"><i class="fas fa-users-cog"></i> Leadership</div>
-      <div class="skill"><i class="fas fa-comments"></i> Communication</div>
-      <div class="skill"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS</div>
-      <div class="skill"><i class="fas fa-chart-line"></i> Excel</div>
-      <div class="skill"><i class="fas fa-book-open"></i> Storytelling</div>
-      <div class="skill"><i class="fas fa-brain"></i> NLP</div>
-      <div class="skill"><i class="fas fa-percentage"></i> Statistics</div>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+    <div class="projects-grid">
 
-      <!-- Repeat for infinite scroll -->
-      <div class="skill"><i class="devicon-tensorflow-original colored"></i> TensorFlow</div>
-      <div class="skill"><i class="devicon-pytorch-original colored"></i> PyTorch</div>
-      <div class="skill"><i class="fas fa-microchip"></i> AI</div>
-      <div class="skill"><i class="fas fa-cloud"></i> Cloud Computing</div>
-      <div class="skill"><i class="fas fa-users-cog"></i> Leadership</div>
-      <div class="skill"><i class="fas fa-brain"></i> NLP</div>
-      <div class="skill"><i class="fas fa-comments"></i> Communication</div>
-      <div class="skill"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS</div>
-      <div class="skill"><i class="fas fa-chart-line"></i> Excel</div>
-      <div class="skill"><i class="fas fa-book-open"></i> Storytelling</div>
-      <div class="skill"><i class="fas fa-percentage"></i> Statistics</div>
-    </div>
-  </div>
-  <div class="skills-summary">
-  <p>
-    I bring a strong blend of technical expertise and problem-solving skills across the data science and AI landscape. From collecting data through web scraping to wrangling and analyzing it using tools like <strong>NumPy</strong>, <strong>Pandas</strong>, <strong>Excel</strong>, and standard <strong>EDA routines</strong>, I engineer solutions that drive results. 
-  
-I develop and deploy robust machine learning models using <strong>Scikit-learn</strong>, <strong>TensorFlow</strong>, <strong>PyTorch</strong>, and other <strong>deep learning</strong> frameworks. My experience also includes building scalable backend systems with <strong>Flask</strong>, creating APIs, and automating workflows. On the frontend, I design clean, user-friendly interfaces using <strong>HTML</strong> and <strong>CSS</strong>, and integrate them into full-stack solutions.
-
-I'm also fluent in deploying production-ready applications using cloud tools like <strong>AWS</strong> and <strong>Docker</strong>. Beyond code, I value <strong>storytelling</strong>, <strong>leadership</strong>, and <strong>communication</strong>—skills that help me turn complex data into strategies people understand and trust.
-  </p>
-</div>
-</section>
-
-
-
-    <!-- Services Section -->
-<section class="services" id="services">
-  <h2 class="section-title">My Services</h2>
-  <div class="services-container">
-
-    <div class="service-item">
-      <h3>Customer Churn Prediction</h3>
-      <p>Identify at-risk customers and reduce attrition with intelligent prediction models.</p>
-    </div>
-
-    <div class="service-item">
-      <h3>Predictive Modeling & Forecasting</h3>
-      <p>Leverage historical data to forecast future trends and drive informed decisions.</p>
-    </div>
-
-    <div class="service-item">
-      <h3>Natural Language Processing (NLP)</h3>
-      <p>Build systems that understand, classify, and generate human language — from chatbots to text summarization.</p>
-    </div>
-
-    <div class="service-item">
-      <h3>Recommendation Systems</h3>
-      <p>Deliver personalized suggestions using collaborative filtering, content-based, sentence embeddings or hybrid techniques.</p>
-    </div>
-
-    <div class="service-item">
-      <h3>Classification & Regression Models</h3>
-      <p>Create high-performing models for tasks like fraud detection, lead scoring, and medical diagnosis.</p>
-    </div>
-
-    <div class="service-item">
-      <h3>Computer Vision</h3>
-      <p>Extract insights from images and video through object detection, recognition, and image classification.</p>
-    </div>
-
-    <div class="service-item">
-      <h3>Business Analysis & Technical Consultation</h3>
-      <p>Translate complex data into actionable strategies that support business goals.</p>
-    </div>
-
-    <div class="service-item">
-      <h3>Full-Stack AI Integration</h3>
-      <p>Build and deploy ML/AI systems with seamless frontend and backend integration using Flask, HTML, and CSS.</p>
-    </div>
-
-    <div class="service-item">
-      <h3>Cloud Deployment & MLOps </h3>
-      <p>Package models into production-ready APIs and deploy using tools like Docker and AWS.</p>
-    </div>
-            
+      <!-- Project 1: Pharm Cop -->
+      <div class="project-card" data-aos="fade-up">
+        <div class="card-img">
+          <img src="Image/work1.png" alt="Pharm Cop"
+            onerror="this.src='https://via.placeholder.com/600x400/222/555?text=Pharm+Cop'">
         </div>
-    </section>
-
-<section class="work" id = "work">
-  <h2 class="section-title">My Work</h2>
-  <div class="projects-grid">
-
-    <!-- Project 1 -->
-    <div class="project-card">
-  <img src="image/work1.png" alt="NAFDAC Drug Database Screenshot"
-       class="popup-img" data-type="video" data-src="video/Interface Preview.mp4">
-    <div class="project-description">
-      <h3><a href="https://github.com/Onome-Joseph/NAFDAC-Drug-Database" target="_blank">NAFDAC Drug Database</a></h3>
-      <p>Recommender system built from the NAFDAC database that contributes to the fight against fake drugs in Nigeria by allowing users to cross-verify authentic medications.</p>
-    </div>
-  </div>
-
-    <!-- Project 2 -->
-    <div class="project-card">
-    <img src="image/work2.png" alt="Customer Churn Screenshot" class="popup-img" data-type="image"  data-src="image/work2-full.png">
-    <div class="project-description">
-      <h3><a href="https://github.com/Onome-Joseph/Customer-Churn-Prediction" target="_blank">Customer Churn Prediction</a></h3>
-      <p>Predicts whether a customer is likely to stop patronizing a business by making use of historical customer data.</p>
-    </div>
-  </div>
-
-    <!-- Project 3 -->
-    <div class="project-card">
-    <img src="image/work3.png" alt="Recommender Engine Screenshot" class="popup-img" data-type="image"  data-src="image/work3-full.png">
-    <div class="project-description">
-      <h3><a href="https://github.com/Onome-Joseph/Recommender-Engine" target="_blank">Recommender Engine</a></h3>
-      <p>A content-based recommender system that provide intelligent, personalized recommendations based on user input.</p>
-    </div>
-  </div>
-
-    <!-- Project 4 -->
-<div class="project-card">
-  <img src="image/work7.png" alt="Soccer Player Screenshot"
-       class="popup-img" data-type="video" data-src="video/Soccer Player re-identification preview.mp4">
-  <div class="project-description">
-    <h3><a href="https://github.com/Onome-Joseph/Soccer-Player-Re-identification" target="_blank">Soccer Player Re-identification</a></h3>
-    <p>Real-time player detection, tracking, and re-identification in soccer videos. Tracks players even during occlusions or exits/entries.</p>
-  </div>
-</div>
-
-    <!-- Project 5 - License Plate Recognition with video -->
-<div class="project-card">
-  <img src="image/work5.png" alt="License Plate Recognition Screenshot"
-       class="popup-img" data-type="video" data-src="video/license-plate-demo.mp4">
-  <div class="project-description">
-    <h3><a href="https://github.com/Onome-Joseph/License-Plate-Recognition" target="_blank">License Plate Recognition</a></h3>
-    <p>Automated system capable of detecting license plates from images and videos, extracting the license plate text, and displaying it.</p>
-  </div>
-</div>
-
-
-    <!-- Project 6 -->
-<div class="project-card">
-  <img src="image/work6.png" alt="Heart Attack Prediction Screenshot" class="popup-img" data-type="image" data-src="image/work6-full.jpeg">
-
-  <div class="project-description">
-    <h3>
-      <a href="https://github.com/Onome-Joseph/Heart-Attack-Prediction" target="_blank">Heart Attack Prediction</a></h3>
-    <p>Estimates the likelihood of a heart attack for a patient based on their health parameters.</p>
-  </div>
-</div>
-
-
-<!-- Unified Modal -->
-<div id="mediaModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="modalImg" style="display: none;">
-  <video id="modalVideo" class="modal-content" controls style="display: none;">
-    <source src="" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-
-
-
-</div>
-<a href="https://github.com/Onome-Joseph?tab=repositories" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See more</a>
-</div>
-</section>
-
-    <section class="contact" id="contact">
-        <div class="title reveal">
-          <h2 class="section-title">Contact Me</h2>
+        <div class="card-content">
+          <h3>Pharm Cop</h3>
+          <p>AI-Powered Protection Against Fake Drugs using computer vision and ML to verify authenticity in real-time.
+          </p>
+          <div class="project-links">
+            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a> -->
+          </div>
         </div>
-        <div class="content">
-          <div class="row">
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="info">
-                <h3>Address</h3>
-                <span>Enugu, Nigeria</span>
-              </div>
-            </div>
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div class="info">
-                <h3>Phone</h3>
-                <span>+234 812 456 6941</span>
-              </div>
-            </div>
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="info">
-                <h3>Email Address</h3>
-                <span>onomejoseph2341@gmail.com</span>
-              </div>
-            </div>
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fab fa-github"></i>
-              </div>
-              <div class="info">
-                <h3>Github</h3>
-                <span>Onome-Joseph</span>
-              </div>
-            </div>
+      </div>
+
+      <!-- Project 2: RL Recommender Engine -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-img">
+          <img src="Image/work3.png" alt="Reinforced Learning Recommender System"
+            onerror="this.src='https://via.placeholder.com/600x400/222/555?text=Recommender'">
         </div>
+        <div class="card-content">
+          <h3>Reinforced Learning Recommender System</h3>
+          <p>Content-based recommendation system enhanced with RL to deliver adaptive suggestions based on user
+            feedback.</p>
+          <div class="project-links">
+            <a href="https://github.com/Onome-Joseph/Flexisaf/tree/main/Task_2/Reinforced%20Learning%20in%20Recommnder%20system"
+              target="_blank"><i class="fab fa-github"></i>
+              Code</a>
+          </div>
+        </div>
+      </div>
 
-    </section>
-       <section class="message" id="message">
-  <div class="title">
-    <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
-      <i class="fas fa-paper-plane"></i> Send a Message
-    </h2>
-    
-    <form id="contact-form" class="message-form">
-  <div class="input-group">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name" required>
-  </div>
+      <!-- Project 3: AI Language Tutor -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-img">
+          <img src="Image/work4.png" alt="AI Language Tutor">
+        </div>
+        <div class="card-content">
+          <h3>AI-powered Language Tutor</h3>
+          <p>Built on LLMs to help users learn languages through natural, conversational interaction.</p>
+          <div class="project-links">
+            <a href="https://github.com/Sufyan-codes/EdTech2-LingoQuest" target="_blank"><i class="fab fa-github"></i>
+              Code</a>
+          </div>
+        </div>
+      </div>
 
-  <div class="input-group">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Email address" required>
-  </div>
+      <!-- Project 4: NLP Deep Learning -->
+      <div class="project-card" data-aos="fade-up">
+        <div class="card-img">
+          <img src="Image/work8.png" alt="NLP Deep Learning">
+        </div>
+        <div class="card-content">
+          <h3>NLP Deep Learning</h3>
+          <p>Automatically classifies customer complaints from a Finance industry dataset into categories such as credit
+            card, loans, retail banking, credit reporting, and more.</p>
+          <div class="project-links">
+            <a href="https://github.com/Onome-Joseph/Flexisaf/tree/main/Task_2/Deep%20Learning%20NLP%20Multi-classification"
+              target="_blank"><i class="fab fa-github"></i>
+              Code</a>
+          </div>
+        </div>
+      </div>
 
-  <div class="input-group">
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
-  </div>
+      <!-- Project 5: License Plate -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-img">
+          <img src="Image/work5.png" alt="License Plate Recognition"
+            onerror="this.src='https://via.placeholder.com/600x400/222/555?text=License+Plate'">
+        </div>
+        <div class="card-content">
+          <h3>License Plate Recognition</h3>
+          <p>Automated system capable of detecting license plates from images and videos, formatted for multiple
+            countries.</p>
+          <div class="project-links">
+            <a href="https://github.com/Onome-Joseph/License-Plate-Recognition" target="_blank"><i
+                class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
 
-  <div class="input-group">
-    <button type="submit" class="send-btn">Send Message</button>
-  </div>
-</form>
+      <!-- Project 6: Soccer Player Re-Identification -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-img">
+          <img src="Image/work7.png" alt="Soccer-Player-Re-identification"
+            onerror="this.src='https://via.placeholder.com/600x400/222/555?text=Customer+Churn'">
+        </div>
+        <div class="card-content">
+          <h3>Soccer Player Re-identification</h3>
+          <p>Real-time player detection, tracking, and re-identification in soccer videos. Tracks players even during
+            occlusions or exits/entries.</p>
+          <div class="project-links">
+            <a href="https://github.com/Onome-Joseph/Soccer-Player-Re-identification" target="_blank"><i
+                class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
 
-<div id="form-status"></div>
-
-
-    </form>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="site-footer">
-  <div class="footer-content">
-    <p>&copy; 2025 Onome Joseph. All rights reserved.</p>
-    <div class="footer-links">
-      <a href="https://github.com/Onome-Joseph" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/onome-oshevire-77159636a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:onomejoseph2341@gmail.com"><i class="fas fa-envelope"></i></a>
     </div>
-  </div>
-</footer>
+  </section>
 
+  <!-- Educational Section -->
+  <section id="education">
+    <h2 class="section-title" data-aos="fade-up">Education</h2>
+    <div class="timeline" style="border-left: none; margin: 0; padding: 0; display: flex; justify-content: center;">
+      <div class="timeline-content" style="max-width: 800px; width: 100%;" data-aos="fade-up">
+        <h3>Bachelor of Engineering</h3>
+        <h4>Electronic and Computer Engineering</h4>
+        <p style="margin-top: 10px; color: var(--text-muted);">University of Nigeria, Nsukka</p>
+      </div>
+    </div>
+  </section>
 
-  
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+    <div class="contact-container" data-aos="fade-up">
+      <div class="contact-card">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>onomejoseph2341@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+234 812 456 6941</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Nigeria</span>
+          </div>
+        </div>
+        <!-- <a href="#" class="btn">Download Resume</a> -->
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer>
+    <p>Copyright &copy; 2026 Onome Joseph. All Rights Reserved.</p>
+  </footer>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({offset:0});
-    </script>
-    <script>
-
-        window.addEventListener("scroll", function(){
-    scrollBtn.classList.toggle("active", window.scrollY > 500);
-});
-
-//javascript for scroll back to top on click scroll-to-top button
-
-// document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
-//   document.body.scrollTop = 0;
-//   document.documentElement.scrollTop = 0;
-// });
-
-        const menuBtn = document.querySelector(".menu-btn");
-        const navigation = document.querySelector(".navigation");
-        const navigationItems = document.querySelector(".navigation a");
-
-        menuBtn.addEventListener("click", () => {
-            menuBtn.classList.toggle("active");
-            navigation.classList.toggle("active");
-        })
-
-        // Navigation Effects
-        window.addEventListener("scroll", function(){
-            const header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-
-        navigationItems.forEach((navigationItem) => {
-            navigationItem.addEventListener("click", () => {
-                menuBtn.classList.remove("active");
-                navigation.classList.remove("active")
-            })
-        })
-    </script>
-     
-    <script>
-  const modal = document.getElementById("mediaModal");
-  const modalImg = document.getElementById("modalImg");
-  const modalVideo = document.getElementById("modalVideo");
-  const videoSource = modalVideo.querySelector("source");
-  const closeBtn = document.querySelector(".close");
-
-  // Listen to clicks on all .popup-img elements
-  document.querySelectorAll('.popup-img').forEach(item => {
-    item.addEventListener('click', function () {
-      const type = this.dataset.type;
-      const src = this.dataset.src;
-
-      modal.style.display = "block";
-
-      if (type === "video") {
-        modalImg.style.display = "none";
-        modalVideo.style.display = "block";
-        videoSource.src = src;
-        modalVideo.load();
-        modalVideo.play();
-      } else {
-        modalVideo.pause();
-        modalVideo.style.display = "none";
-        modalImg.style.display = "block";
-        modalImg.src = src;
-      }
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100
     });
-  });
 
-  // Close modal with X
-  closeBtn.onclick = function () {
-    modal.style.display = "none";
-    modalVideo.pause();
-  }
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      const icon = document.querySelector('.mobile-menu-btn i');
+      nav.classList.toggle('active');
 
-  // Close modal when clicking outside
-  window.onclick = function (e) {
-    if (e.target === modal) {
-      modal.style.display = "none";
-      modalVideo.pause();
+      if (nav.classList.contains('active')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+      } else {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      }
     }
-  }
-</script>
-
-
-
+  </script>
 </body>
-</html>
 
+</html>
